@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- loc-today listing icon: today's lines as a ranked bar chart, new /
+       edited / deleted. Rendered to .claude-plugin/icon.png (1024 px) by
+       `npm run screenshots`. -->
+  <rect width="1024" height="1024" fill="#0d1117"/>
+  <!-- the day: a calendar tab -->
+  <rect x="180" y="170" width="664" height="96" rx="30" fill="#30363d"/>
+  <rect x="300" y="130" width="40" height="90" rx="20" fill="#8b949e"/>
+  <rect x="684" y="130" width="40" height="90" rx="20" fill="#8b949e"/>
+  <!-- ranked projects, largest first -->
+  <rect x="180" y="340" width="560" height="96" rx="24" fill="#3fb950"/>
+  <rect x="740" y="340" width="104" height="96" rx="24" fill="#d29922"/>
+  <rect x="180" y="490" width="380" height="96" rx="24" fill="#3fb950"/>
+  <rect x="560" y="490" width="70" height="96" rx="24" fill="#d29922"/>
+  <rect x="630" y="490" width="90" height="96" rx="24" fill="#f85149"/>
+  <rect x="180" y="640" width="210" height="96" rx="24" fill="#3fb950"/>
+  <rect x="390" y="640" width="60" height="96" rx="24" fill="#f85149"/>
+  <rect x="180" y="790" width="110" height="96" rx="24" fill="#3fb950" opacity=".7"/>
+</svg>

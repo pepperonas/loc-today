@@ -1,0 +1,22 @@
+{
+  "name": "loc-today",
+  "version": "0.1.0",
+  "description": "Today's lines of code by Claude, across all sessions, under the prompt: new, edited and deleted lines, and on hover the split by project, largest first",
+  "userConfig": {
+    "mode": {
+      "type": "string",
+      "title": "Display",
+      "description": "full: the whole line · compact: numbers only · off: hidden",
+      "default": "full"
+    }
+  },
+  "author": {
+    "name": "Martin Pfeffer",
+    "email": "martin.pfeffer@celox.io",
+    "url": "https://celox.io"
+  },
+  "homepage": "https://github.com/pepperonas/loc-today",
+  "repository": "https://github.com/pepperonas/loc-today",
+  "license": "MIT",
+  "keywords": ["mod", "function-hooks", "ui", "lines-of-code", "stats", "productivity", "diff"]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "pepperonas-loc-today",
+  "owner": {
+    "name": "Martin Pfeffer",
+    "email": "martin.pfeffer@celox.io",
+    "url": "https://celox.io"
+  },
+  "metadata": {
+    "description": "Claude Code mods by Martin Pfeffer (celox.io)"
+  },
+  "plugins": [
+    {
+      "name": "loc-today",
+      "source": "./",
+      "description": "Today's lines of code by Claude, across all sessions, under the prompt: new, edited and deleted lines, and on hover the split by project, largest first",
+      "version": "0.1.0",
+      "author": {
+        "name": "Martin Pfeffer",
+        "url": "https://celox.io"
+      },
+      "homepage": "https://github.com/pepperonas/loc-today",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": [
+        "mod",
+        "lines-of-code",
+        "stats",
+        "diff",
+        "productivity",
+        "ui"
+      ]
+    }
+  ]
+}

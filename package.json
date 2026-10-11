@@ -1,0 +1,24 @@
+{
+  "name": "loc-today",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Claude Code mod: lines of code changed today, across all sessions, by project",
+  "type": "module",
+  "license": "MIT",
+  "author": "Martin Pfeffer <martin.pfeffer@celox.io> (https://celox.io)",
+  "repository": "github:pepperonas/loc-today",
+  "scripts": {
+    "test": "node --import tsx --test tests/*.spec.ts",
+    "test:engine": "claude plugin test .",
+    "validate": "claude plugin validate .",
+    "screenshots": "node --import tsx tools/screenshots.ts"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
